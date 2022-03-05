@@ -1,0 +1,47 @@
+@media (max-width: 75em) {
+  .container-timeline {
+    margin: 3rem 2rem;
+  }
+
+  .flex-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .timeline-list {
+    line-height: 2.3rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .person {
+    font-size: 2.4rem;
+    left: 8rem;
+  }
+
+  .container-header figure {
+    width: 30rem;
+    top: 38rem;
+  }
+
+  .timeline-list {
+    font-size: 2.4rem;
+  }
+
+  .img-box {
+    display: none;
+  }
+}
+
+@media (max-width: 53em) {
+  .person {
+    top: 15rem;
+  }
+
+  .timeline-list {
+    line-height: 3rem;
+    gap: 3rem;
+    font-size: 2.2rem;
+  }
+}

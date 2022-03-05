@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 100%;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: rgb(46, 45, 45);
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 1.8rem;
+  align-items: center;
+}
+
+.container-header {
+  background: linear-gradient(
+      rgba(104, 104, 104, 0.308),
+      rgba(97, 97, 97, 0.397)
+    ),
+    url("image/Steve-Jobs.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.person {
+  position: absolute;
+  top: 13rem;
+  left: 7rem;
+  font-size: 3.2rem;
+}
+
+.person span {
+  display: block;
+  text-align: center;
+}
+
+.container-header figure {
+  width: 50rem;
+  display: inline-block;
+  position: absolute;
+  top: 30rem;
+  left: 3rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+}
+
+.container-timeline {
+  max-width: 130rem;
+  margin: 2rem auto;
+  margin-bottom: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.container-timeline h3 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 4.2rem;
+  margin-bottom: 5rem;
+}
+
+.timeline-box strong {
+  background-color: #eee;
+  color: #333;
+  padding: 0.2rem;
+  border-radius: 30%;
+  font-size: 1.4rem;
+}
+
+.timeline-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.img-box {
+  text-align: center;
+  align-self: center;
+}
+
+#image {
+  display: block;
+  border-radius: 20%;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #fff;
+}
+
+.footer a:active,
+.footer a:hover {
+  color: antiquewhite;
+}
